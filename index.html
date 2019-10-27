@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tip calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Caluculator</h1>
+        <div class="calculator"></div>
+<form autocomplete="off">
+    <p>How much was your  bill</p>
+    $<input type="text" id='bill' required>
+    <p>How was your service</p>
+    <select name="" id="servicequality" required>
+            <option value="">--Choose Option--</option>
+        <option value="0.3">30%</option>
+        <option value="0.2">20%</option>
+        <option value="0.15">15%</option>
+        <option value="0.1">10%</option>
+        <option value="0.05">5%</option>
+    </select>
+    <p>How many people are sharing</p>
+    <input type="text" id="people"required>people
+    <input type="submit" value="calculate">
+</form>
+<p id="result"></p></div>
+   <script src="script.js"></script> 
+</body>
+</html>
